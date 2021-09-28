@@ -671,7 +671,7 @@ if __name__ == "__main__":
                         help="adam: decay of first order momentum of gradient")
     parser.add_argument("--b2", type=float, default=0.999,
                         help="adam: decay of first order momentum of gradient")
-    parser.add_argument("--latent_dim", type=int, default=100,
+    parser.add_argument("--latent_dim", type=int, default=128,
                         help="dimensionality of the latent space")
     parser.add_argument("--img_size", type=int, default=128,
                         help="size of each image dimension")
